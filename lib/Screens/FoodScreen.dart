@@ -36,16 +36,6 @@ class _FoodScreenState extends State<FoodScreen> {
                           fontWeight: FontWeight.w700,
                           color: Color(0xff049867)),
                     ),
-                    // Container(
-                    //   child: Text("${menuList[i].description}",
-                    //       style: TextStyle(
-                    //           fontWeight: FontWeight.w600,
-                    //           fontSize: 16,
-                    //           color: Color(0xff049867))),
-                    //   height: 20,
-                    //   width: 100,
-                    // ),
-
                     Container(
                         margin: EdgeInsets.only(top: 15),
                         padding:

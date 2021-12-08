@@ -12,8 +12,18 @@ class TafeTargetsScreen extends StatelessWidget {
       ),
       body: Center(
         child: SingleChildScrollView(
-          child: Image(
-            image: AssetImage('lib/img/new/goals.png'),
+          child: Column(
+            children: [
+              Image(
+                image: AssetImage('lib/img/new/target1.png'),
+              ),
+              Image(
+                image: AssetImage('lib/img/new/target2.png'),
+              ),
+              Image(
+                image: AssetImage('lib/img/new/target3.png'),
+              ),
+            ],
           ),
         ),
       ),
